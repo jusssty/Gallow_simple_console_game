@@ -14,7 +14,7 @@ using namespace std;
 const int QI = 28, ATT = 9;
 char gal[6][6];
 vector <string> words = {"FATHER", "MOTHER", "PROGRAMMER", "IN", "MATH", "ANONIMYS", "GATES", "SPOON", "ARKASHA", "PAPICH", "DOTA", "HTML", "PYTON", "ITMO",
-		     			 "LIPTON", "TIKTOK", "CHOICE", "LORDRENTO", "JONGL", "CSGO", "POSTAL", "HOTEL", "TRONE", "RESPONSE", "CAP", "CAT", "ALONE", "BEER"};
+		     	 "LIPTON", "TIKTOK", "CHOICE", "LORDRENTO", "JONGL", "CSGO", "POSTAL", "HOTEL", "TRONE", "RESPONSE", "CAP", "CAT", "ALONE", "BEER"};
 
 HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 
@@ -148,5 +148,4 @@ int main() {
 				return 0;
 		}
 	}
-	return 0;
 }
